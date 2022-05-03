@@ -1,0 +1,28 @@
+[
+    {
+       "id": "S1001",
+       "firstName":"Surya",
+       "lastName":"Molleti",
+       "email": "surya.molleti@gmail.com",
+       "password": "pass123",
+       "collegeId": "col-102"
+    },
+    
+    {
+       "id": "S1002",
+       "email": "kiran.molleti@gmail.com",
+       "firstName":"Kiran",
+       "lastName":"Molleti",
+       "password": "pass123",
+       "collegeId": "col-101"
+    },
+    
+    {
+       "id": "S1003",
+       "email": "kiran.panigrahi@gmail.com",
+       "firstName":"Kiran",
+       "lastName":"Panigrahi",
+       "password": "pass123",
+       "collegeId": "col-101"
+    }
+ ]
