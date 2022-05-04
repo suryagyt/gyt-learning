@@ -1,4 +1,14 @@
 const db = require('./db')
+
+const Mutation = {
+    createStudent:(root, args, context, info) => {
+        return db.students.create({
+            collegeId: args.collegeId,
+            firstName:args.firstName,
+            lastName: args.lastName
+        })
+    }
+}
 const Query = {
    //resolver function for greeting
    greeting:() => {
@@ -25,4 +35,4 @@ const Student = {
     }
  }
  
- module.exports = {Query,Student}
+ module.exports = {Query,Student,Mutation}
